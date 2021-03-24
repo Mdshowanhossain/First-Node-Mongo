@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 const ObjectId = require('mongodb').ObjectId;
 
 
-const password = '$iQ!tc2-k!ryYW.'
+
 
 const uri = "mongodb+srv://organicUser:$iQ!tc2-k!ryYW.@cluster0.buk2o.mongodb.net/organicdb?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
